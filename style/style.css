@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  width: 20%;
+  background-color: #2d3e4f;
+  height: 100vh;
+  text-align: center;
+  line-height: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+}
+header nav h1 {
+  font-size: 33px;
+  color: #cf404d;
+}
+header nav a {
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+header nav a:hover {
+  color: #cf404d;
+}
+header div {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  background-image: url(../Images/girl.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header div h1 {
+  padding-top: 250px;
+  font-size: 50px;
+  color: #fff;
+}
+header div button {
+  margin: 10px 10px;
+  padding: 15px 25px;
+  background: none;
+  border: 4px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
+header div button:hover {
+  background-color: #cf404d;
+}/*# sourceMappingURL=style.css.map */
